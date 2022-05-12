@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Teacher Form</title>
+</head>
+<body>
+<h1>Teacher Form</h1>
+    <form>
+        <div style="display:flex; flex-direction:column; margin: auto; width:25%;">
+            <label for="fullNameInput">Full Name:</label>
+            <input type="text" name="fullName" id="fullNameInput"/>
+
+            <label for="genderSelect">Choose your gender:</label>
+            <select id="genderSelect" name="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="car">Car</option>
+                <option value="helicopter">Helicopter</option>
+                <option value="other">Other</option>
+            </select>
+
+            <label for="emailInput">Email:</label>
+            <input type="email" name="email" id="emailInput"/>
+
+            <label for="dateOfBirthInput">Date of birth:</label>
+            <input type="date" name="dateOfBirth" id="dateOfBirthInput"/>
+
+            <label for="phoneInput">Phone number:</label>
+            <input type="tel" name="phone" id="phoneInput"/>
+
+            <label for="colorInput">Background color:</label>
+            <input type="color" name="color" id="colorInput"/>
+
+            <label for="countryInput">Country:</label>
+            <input type="text" name="country" id="countryInput"/>
+
+            <label for="cityInput">City:</label>
+            <input type="text" name="city" id="cityInput"/>
+
+            <label for="commentInput">Comment:</label>
+            <textarea name="comment" id="commentInput"></textarea>
+
+            <input type="submit" value="Submit" style="margin-top: 30px;">
+        </div>
+
+    </form>
+
+</body>
+</html>
